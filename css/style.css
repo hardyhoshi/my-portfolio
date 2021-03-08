@@ -108,3 +108,26 @@ header {
   font-size: 1.5rem;
   letter-spacing: .2em;
 }
+
+/* スキル */
+.skill-section {
+  background-image: url(../img/section-image.jpg);
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.skill-desc {
+  background-color: white;
+  text-align: center;
+  line-height: 2;
+  padding: 40px;
+}
+
+.skill-desc-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
