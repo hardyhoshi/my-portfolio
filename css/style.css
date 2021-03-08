@@ -132,6 +132,15 @@ header {
   font-weight: bold;
 }
 
+.table {
+  width: 100%;
+}
+
+.table td, .table th {
+  padding: .75rem;
+  text-align: center;
+}
+
 /* 星評価のデザイン */
 .star5_rating{
   position: relative;
