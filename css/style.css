@@ -199,6 +199,24 @@ header {
   color: blue;
 }
 
+/* コンタクト */
+.contact-section {
+  background-image: url(../img/section-image.jpg);
+}
+
+.contact-item {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.contact-item i {
+  color: #1ca9e3;
+}
+
+.contact-text {
+  text-align: center;
+} 
+
 /* フッター */
 footer {
   background: #432;
