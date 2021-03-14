@@ -25,6 +25,11 @@ img {
   letter-spacing: .2em;
 }
 
+.section-heading p {
+  font-size: 1.25rem;
+  padding-top: 20px;
+}
+
 /* ヘッダー */
 header {
   height: 65px;
