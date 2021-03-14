@@ -25,6 +25,11 @@ img {
   letter-spacing: .2em;
 }
 
+.section-heading p {
+  font-size: 1.25rem;
+  padding-top: 20px;
+}
+
 /* ヘッダー */
 header {
   height: 65px;
@@ -176,3 +181,20 @@ header {
 .star5_rating[data-rate="1"]:after{ width: 20%; } /* 星1 */
 .star5_rating[data-rate="0.5"]:after{ width: 10%; } /* 星0.5 */
 .star5_rating[data-rate="0"]:after{ width: 0%; } /* 星0 */
+
+/* Works */
+.works-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.works-body {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.works-body a {
+  border-bottom: 1px solid blue;
+  color: blue;
+}
