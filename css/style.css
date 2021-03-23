@@ -189,9 +189,18 @@ header {
   gap: 20px;
 }
 
+.works-item {
+  box-shadow: 0 3px 6px rgba(34, 49, 52, 0.7);
+}
+
 .works-body {
   text-align: center;
-  margin-top: 10px;
+  padding: 10px;
+}
+
+.works-ttl {
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .works-body a {
