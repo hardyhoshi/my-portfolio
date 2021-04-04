@@ -185,7 +185,7 @@ header {
 /* Works */
 .works-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
 }
 
@@ -236,4 +236,30 @@ footer {
 footer p {
   color: #fff;
   font-size: 0.875rem;
+}
+
+/* レスポンシブ */
+@media (max-width: 780px) {
+  /* ヘッダー */
+  .nav-item a {
+    font-size: 14px;
+  }
+
+  /* メインビジュアル */
+  .section-heading h2 {
+    font-size: 2rem;
+  }
+
+  /* アバウト */
+  .about-body li {
+    line-height: 1;
+    font-size: 1rem;
+    letter-spacing: .1em;
+  }
+  
+  /* スキル */
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
 }
